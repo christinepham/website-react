@@ -1,0 +1,25 @@
+h3 {
+	color: #BC8F8F !important;
+	font-family: 'Mukta Malar', sans-serif !important;
+}
+
+span {
+	font-family: 'Lato', sans-serif;
+	width: fit-content;
+}
+
+.about {
+	margin-top: 15px;
+}
+
+.basics {
+	margin-right: 50px;
+	text-align: justify;
+}
+
+.profile {
+	float: left;
+	margin: 10px 25px 10px 50px;
+	width: auto;
+	height: auto;
+}

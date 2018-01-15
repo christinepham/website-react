@@ -1,0 +1,68 @@
+main {
+  width: 100%;
+  margin-top: 65px;
+}
+
+.home-page {
+	height: 100%;
+}
+
+/* Navbar Styling */
+.container {
+	background-color: white;
+	width: 100% !important;
+	margin: 0;
+}
+
+.navbar-brand {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-weight: 600;
+	font-family: 'Mukta Malar', sans-serif;
+	font-size: 20px;
+	color: #BC8F8F !important;
+}
+
+.navbar {
+	background: #fff;
+	filter: none !important;
+	box-shadow: 0 2px 15px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0 2px 15px rgba(0,0,0,0.25);
+	-webkit-box-shadow: 0 2px 15px rgba(0,0,0,0.25);
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	padding: 0 50px;
+}
+
+.navbar .nav {
+	float: right;
+}
+
+.navbar .nav li a {
+	background: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	color: #777;
+	font-size: 16px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-weight: 600;
+	font-family: 'Mukta Malar', sans-serif;
+}
+
+.navbar .nav li a:hover {
+	background: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	color: #bf3604;
+}
+
+.navbar .nav li.active a {
+	color: #bf3604;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}

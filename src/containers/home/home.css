@@ -1,0 +1,39 @@
+.background {
+  background: url(./images/home.jpg) no-repeat center center fixed;
+  background-size: cover;
+  opacity: 0.4;
+  overflow-y: hidden;
+}
+
+.container {
+	margin: auto;
+	position: relative;
+}
+
+.quote {
+  margin: 25%;
+  background-color: white;
+  opacity: .65;
+  padding: 2.5%;
+  font-family: 'Lato', sans-serif;
+}
+
+.carousel-home {
+	margin: 100px 0 !important;
+}
+
+.carousel {
+	margin-top: 100px;
+	margin: auto;
+	width: 600px;
+	height: 400px;
+	overflow-y: hidden;
+}
+
+.carousel-caption {
+	font-family: 'Lato', sans-serif;
+}
+
+img {
+	height: -webkit-fill-available !important;
+}
