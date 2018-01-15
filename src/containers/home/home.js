@@ -2,6 +2,7 @@ import React from 'react'
 import { Carousel } from 'react-bootstrap'
 
 import Cover from './images/page14.png'
+import HelloWorld from './images/hello-world.jpg'
 import './home.css'
 
 const Header = () => (
@@ -25,6 +26,15 @@ const CarouselHome = () => (
           </Carousel.Caption>
         </a>
   		</Carousel.Item>
+      <Carousel.Item>
+        <a href="https://github.com/christinepham/website-react/wiki" target="_blank">
+          <img width={600} height={200} alt="600x200" src={ HelloWorld }/>
+          <Carousel.Caption>
+            <h3>Github Wiki</h3>
+            <p>Read about what I used to create this website</p>
+          </Carousel.Caption>
+        </a>
+      </Carousel.Item>
   	</Carousel>
   </div>
 )
